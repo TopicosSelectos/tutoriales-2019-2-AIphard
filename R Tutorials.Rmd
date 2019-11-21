@@ -1,0 +1,58 @@
+---
+title: "R Tutorials"
+author: "Daniela Torres"
+date: "11/19/2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+##2.1 Arithmetic with R
+```{R}
+2+2
+2-2
+2*2
+4/2
+2^2
+4%%2
+```
+##2.2~7 Variable Assignment
+```{R}
+var <- 1
+
+print(var)
+
+my_pencils <- 5
+my_pens <- 6
+
+my_pencils+my_pens
+
+my_desktools <- my_pencils+my_pens
+my_desktools
+
+numVar <- 72
+charVar <- "Dany"
+LogicVar <- TRUE
+
+class(numVar)
+class(charVar)
+class(LogicVar)
+```
+3.1 Vectors
+```{r}
+Dany <- "Useless Lesbian"
+Dany
+
+
+numeric_v <- c(7,2,6,9)
+numeric_v
+char_v <- c("D","A","N","Y")
+char_v
+bool_v <- c(TRUE, FALSE, FALSE, TRUE)
+bool_v
+
+
+```
